@@ -37,7 +37,7 @@ public interface StudentArrayOperation {
 	Student getStudent(int index) {
 		if(student==null)
 			throw IllegalArgumentException();
-		System.out.println(student(index));
+		System.out.println(Student.student(index));
 	}
 
 	
@@ -91,7 +91,7 @@ public interface StudentArrayOperation {
 	void addFirst(Student student) {
 		if(student==null)
 			throw new IllegalArgumentException;
-		Student.add(student);
+		Student(student);
 	}
 	
 
