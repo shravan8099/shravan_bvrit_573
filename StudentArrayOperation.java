@@ -34,7 +34,11 @@ public interface StudentArrayOperation {
 	 *
 	 * @param index
 	 */
-	Student getStudent(int index);
+	Student getStudent(int index) {
+		if(student==null)
+			throw IllegalArgumentException();
+		System.out.printf(student(index));
+	}
 
 	
 	/**
@@ -69,9 +73,9 @@ public interface StudentArrayOperation {
 	 * @throws IllegalArgumentException
 	 */
 	void add(Student student, int index) {
-		if(student==null)
+		/*if(student==null)
 			throw new IllegalArgumentException();
-		Student.add(index,student);
+		Student.add(index,student);*/
 	}
 
 	
