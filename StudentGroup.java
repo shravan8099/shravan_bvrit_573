@@ -37,6 +37,9 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
+		if(student==null)
+			throw new IllegalArgumentException();
+		System.out.println(Student.student(index));
 		return null;
 	}
 
