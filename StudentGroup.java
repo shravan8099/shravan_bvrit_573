@@ -53,7 +53,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		if(student==null)
 			throw new IllegalArgumentException();
-		Student.add(student);
+		StudentArrayOperation.add(student);
 	}
 
 	@Override
